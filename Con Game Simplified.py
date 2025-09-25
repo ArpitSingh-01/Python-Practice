@@ -2,8 +2,11 @@ print("Welcome to the conditions program")
 print("But converted into Game using conditions😏")
 
 Your_Name = input("What's your name? ")
+Your_Name = Your_Name.strip().title()
 print(f"Hello, {Your_Name}")
+
 Your_Friend = input("What's your friend's name? ")
+Your_Friend = Your_Friend.strip().title()
 print(f"Hello, {Your_Friend}")
 
 x = int(input(f"{Your_Name} Pick a number between 1-10: "))
@@ -31,3 +34,4 @@ elif x > y:
     print(f"{Your_Name} wins")  
 else:
     print("x is equal to y\nIt's a tie")
+
