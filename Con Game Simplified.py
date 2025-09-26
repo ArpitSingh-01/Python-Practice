@@ -2,6 +2,7 @@ print("Welcome to the conditions program")
 print("But converted into Game using conditions😏")
 
 Your_Name = input("What's your name? ")
+"""Removing blank and space and making name uppeercase"""
 Your_Name = Your_Name.strip().title()
 print(f"Hello, {Your_Name}")
 
@@ -34,4 +35,5 @@ elif x > y:
     print(f"{Your_Name} wins")  
 else:
     print("x is equal to y\nIt's a tie")
+
 
